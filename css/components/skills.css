@@ -111,8 +111,8 @@
     position: relative;
 }
 
-/* Proficient Level Skills */
-.skill-tag[data-level="proficient"] {
+/* Advanced Level Skills */
+.skill-tag[data-level="advanced"] {
     background: linear-gradient(135deg,
         rgba(52, 211, 153, 0.15) 0%,
         rgba(52, 211, 153, 0.08) 100%);
@@ -121,7 +121,7 @@
     font-weight: 600;
 }
 
-.skill-tag[data-level="proficient"]:hover {
+.skill-tag[data-level="advanced"]:hover {
     background: linear-gradient(135deg,
         rgba(52, 211, 153, 0.25) 0%,
         rgba(52, 211, 153, 0.15) 100%);
@@ -146,8 +146,8 @@
     box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
 }
 
-/* exploring Level Skills */
-.skill-tag[data-level="exploring"] {
+/* Learning Level Skills */
+.skill-tag[data-level="learning"] {
     background: linear-gradient(135deg,
         rgba(139, 92, 246, 0.15) 0%,
         rgba(139, 92, 246, 0.08) 100%);
@@ -155,7 +155,7 @@
     color: rgb(76, 29, 149);
 }
 
-.skill-tag[data-level="exploring"]:hover {
+.skill-tag[data-level="learning"]:hover {
     background: linear-gradient(135deg,
         rgba(139, 92, 246, 0.25) 0%,
         rgba(139, 92, 246, 0.15) 100%);
@@ -230,7 +230,7 @@
     border-radius: 50%;
 }
 
-.legend-dot.proficient {
+.legend-dot.advanced {
     background-color: rgb(52, 211, 153);
 }
 
@@ -238,7 +238,7 @@
     background-color: rgb(59, 130, 246);
 }
 
-.legend-dot.exploring {
+.legend-dot.learning {
     background-color: rgb(139, 92, 246);
 }
 
@@ -297,7 +297,7 @@
     color: #f5f5f5;
 }
 
-.dark-theme .skill-tag[data-level="proficient"] {
+.dark-theme .skill-tag[data-level="advanced"] {
     color: #34ffb4;
     border-color: #34ffb4;
 }
@@ -305,7 +305,7 @@
     color: #7cb8ff;
     border-color: #7cb8ff;
 }
-.dark-theme .skill-tag[data-level="exploring"] {
+.dark-theme .skill-tag[data-level="learning"] {
     color: #c7a6ff;
     border-color: #c7a6ff;
 }
