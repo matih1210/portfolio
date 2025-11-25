@@ -1,5 +1,9 @@
 # **README – Versión en Español**
 
+### 📄 Lenguajes Disponibles
+- 🇬🇧 Español (Este archivo)
+- 🇪🇸 [English Version](README.md)
+
 # 🌐 Portafolio Personal – Matías Hansen
 
 Este repositorio contiene el código fuente de mi **Sitio Web de Portafolio Personal**, una plataforma moderna y responsive que muestra mis proyectos, habilidades técnicas, certificaciones y trayectoria profesional como desarrollador.
