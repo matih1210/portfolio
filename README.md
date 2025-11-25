@@ -138,7 +138,7 @@ No additional server is required.
 
 This portfolio is deployed using **GitHub Pages** and is publicly accessible at:
 
-🔗 **Live Site:** https://mati1210.github.io/portfolio/
+🔗 **Live Site:** [https://mati1210.github.io/portfolio/](https://matih1210.github.io/portfolio/)
 
 ---
 ## 📝 License
@@ -158,6 +158,7 @@ Additional modifications and content created by:
 - 📧 **Email:** *matihansen12@gmail.com*
 - 💼 **LinkedIn:** *(your link)*
 - 🐙 **GitHub:** https://github.com/mati1210
+
 
 
 
