@@ -10,7 +10,7 @@ This repository contains the source code for my **Personal Portfolio Website**, 
 
 The aim of the website is to present my profile in a clean, visual, and accessible format for recruiters, companies, and collaborators.
 
-🔗 **Live Portfolio:** *(add link)*  
+🌐 **Live Portfolio:** [mati1210.github.io/portfolio](https://mati1210.github.io/portfolio/) 
 📄 **Download Resume:** *(optional)*
 
 ---
@@ -166,6 +166,7 @@ Additional modifications and content created by:
 - 📧 **Email:** *matihansen12@gmail.com*
 - 💼 **LinkedIn:** *(your link)*
 - 🐙 **GitHub:** https://github.com/mati1210
+
 
 
 
