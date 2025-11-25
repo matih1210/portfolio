@@ -3,6 +3,9 @@
 
 # **README – English Version**
 
+### 📄 Available Languages
+- 🇬🇧 English (this file)
+- 🇪🇸 [Versión en Español](README_ES.md)
 
 # 🌐 Personal Portfolio – Matías Hansen
 
@@ -158,6 +161,7 @@ Additional modifications and content created by:
 - 📧 **Email:** *matihansen12@gmail.com*
 - 💼 **LinkedIn:** *(your link)*
 - 🐙 **GitHub:** https://github.com/mati1210
+
 
 
 
