@@ -134,20 +134,11 @@ No additional server is required.
 
 ---
 
-## 🚀 Deployment (GitHub Pages)
+## 🚀 Deployment
 
-1. Push the repository to GitHub  
-2. Go to:  
-   **Settings → Pages**  
-3. Select:  
-   **Branch: main → /root**  
-4. Save  
+This portfolio is deployed using **GitHub Pages** and is publicly accessible at:
 
-The portfolio will be hosted at:
-
-```
-https://mati1210.github.io/portfolio/
-```
+🔗 **Live Site:** https://mati1210.github.io/portfolio/
 
 ---
 ## 📝 License
@@ -167,6 +158,7 @@ Additional modifications and content created by:
 - 📧 **Email:** *matihansen12@gmail.com*
 - 💼 **LinkedIn:** *(your link)*
 - 🐙 **GitHub:** https://github.com/mati1210
+
 
 
 
