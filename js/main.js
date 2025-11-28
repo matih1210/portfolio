@@ -303,6 +303,39 @@ document.addEventListener('DOMContentLoaded', () => {
     setupHorizontalScroll('projects');
     setupHorizontalScroll('certifications');
 
+    //Lenguage Switcher
+    function setLanguage(lang) {
+      const dict = translations[lang];
+      if (!dict) return;
+
+      document.documentElement.setAttribute("lang", lang);
+
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (dict[key]) el.textContent = dict[key];
+      });
+
+      document.querySelectorAll(".lang-btn").forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+      });
+    }
+
+    function initLanguage() {
+      const saved = localStorage.getItem("preferredLang") || "en";
+      setLanguage(saved);
+
+      document.querySelectorAll(".lang-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const lang = btn.dataset.lang;
+          localStorage.setItem("preferredLang", lang);
+          setLanguage(lang);
+        });
+      });
+    }
+
+    initLanguage();
+
+
     // Intersection Observer for animations
     function setupIntersectionObserver() {
         const options = { root: null, rootMargin: '0px', threshold: 0.1 };

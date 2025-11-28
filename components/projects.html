@@ -1,205 +1,215 @@
 <!-- Projects Section -->
 <section class="projects section horizontal-scroll-enabled" id="projects">
     <div class="container">
+
+        <!-- SECTION HEADING -->
         <div class="section-heading">
-            <h2>My Projects</h2>
+            <h2 data-i18n="projects.title">My Projects</h2>
             <div class="underline"></div>
         </div>
+
+        <!-- FILTER BUTTONS -->
         <div class="project-filters">
-            <button class="filter-button active" data-filter="all">All Projects</button>
-            <button class="filter-button" data-filter="sde">Software Development</button>
-            <button class="filter-button" data-filter="dsml">Data Science & ML</button>
+            <button class="filter-button active" data-filter="all" data-i18n="projects.filter.all">
+                All Projects
+            </button>
+            <button class="filter-button" data-filter="sde" data-i18n="projects.filter.sde">
+                Software Development
+            </button>
+            <button class="filter-button" data-filter="dsml" data-i18n="projects.filter.dsml">
+                Data Science & ML
+            </button>
         </div>
+
+        <!-- ARROWS -->
         <div class="scroll-arrow-container">
-           <button class="scroll-arrow prev-arrow" aria-label="Previous items">
-               <i class="fas fa-chevron-left"></i>
-           </button>
-           <button class="scroll-arrow next-arrow" aria-label="Next items">
-               <i class="fas fa-chevron-right"></i>
-           </button>
-       </div>
+            <button class="scroll-arrow prev-arrow" aria-label="Previous items">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="scroll-arrow next-arrow" aria-label="Next items">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- PROJECTS GRID -->
         <div class="horizontal-scroll-wrapper">
             <div class="scroll-content projects-grid">
-            <!-- SDE Project - Inventory Management System -->
-            <div class="project-card" data-category="sde">
-                <div class="project-image">
-                    <img src="assets/projects/ProyectoFullStock.png" alt="Inventory Management System">
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Inventory Management System</h3>
-                    <p class="project-description">
-                        FullStack inventory management platform developed for an academic project. 
-                        Includes product, supplier, orders, and sales management. 
-                        Built with a REST API backend (Express + Prisma + PostgreSQL) and a modern 
-                        frontend using Next.js and TailwindCSS with interactive dashboards and visualizations.
-                    </p>
-                
-                    <div class="project-tech-stack">
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Express</span>
-                        <span class="tech-tag">Prisma ORM</span>
-                        <span class="tech-tag">PostgreSQL</span>
-                        <span class="tech-tag">Next.js</span>
-                        <span class="tech-tag">TailwindCSS</span>
-                        <span class="tech-tag">Recharts</span>
-                        <span class="tech-tag">Tremor</span>
-                    </div>
-                
-                    <div class="project-links">
-                        <a href="https://github.com/TuteSeta/FullStockBack" 
-                           class="project-link" target="_blank">
-                           <i class="fab fa-github"></i> Backend
-                        </a>
-                    
-                        <a href="https://github.com/TuteSeta/FullstockFront" 
-                           class="project-link" target="_blank">
-                           <i class="fab fa-github"></i> Frontend
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- DSML Project - Random Number Generator & Statistical Validation -->
-            <div class="project-card" data-category="dsml">
-                <div class="project-image">
-                    <img src="assets/projects/ProyectoSimulacion.png" alt="Random Number Generator Project Screenshot">
-                </div>
-            
-                <div class="project-content">
-                    <h3 class="project-title">Random Number Generator & Statistical Validation</h3>
-                
-                    <p class="project-description">
-                        Academic project focused on developing and validating pseudo-random number generators in Python.
-                        Implemented congruential generators, statistical tests (Chi-square, KS, entropy), and probabilistic 
-                        distributions using inverse transform and rejection sampling. Included a Flask-based web interface to 
-                        visualize results interactively.
-                    </p>
-                
-                    <div class="project-tech-stack">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">SciPy</span>
-                        <span class="tech-tag">NumPy</span>
-                        <span class="tech-tag">Flask</span>
-                        <span class="tech-tag">Matplotlib</span>
-                        <span class="tech-tag">Seaborn</span>
-                    </div>
-                
-                    <div class="project-links">
-                        <a href="https://github.com/matih1210/Trabajo-Final-Simulacion" class="project-link" target="_blank">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <!-- SDE Project - Microservices Auth/Event/Signup -->
-            <div class="project-card" data-category="sde">
-                <div class="project-image">
-                    <img src="assets/projects/Proyecto-Microservicios-Eventos.png" alt="Microservices Auth Event Signup">
-                </div>
-            
-                <div class="project-content">
-                    <h3 class="project-title">Microservices Auth, Event & Signup</h3>
-                
-                    <p class="project-description">
-                        Distributed system built with Go and MongoDB demonstrating session management 
-                        using JWT introspection. Includes independent microservices for authentication, 
-                        event management, and user signups, each with its own database and REST API. 
-                        Logout invalidates tokens through centralized session verification.
-                    </p>
-                
-                    <div class="project-tech-stack">
-                        <span class="tech-tag">Go</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">JWT</span>
-                        <span class="tech-tag">REST API</span>
-                        <span class="tech-tag">Microservices</span>
-                        <span class="tech-tag">Docker</span>
-                    </div>
-                
-                    <div class="project-links">
-                        <a href="https://github.com/matih1210/Microservicios-de-eventos" class="project-link" target="_blank">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <!-- SDE Project - Cypress Automated Testing -->
-            <div class="project-card" data-category="sde">
-                <div class="project-image">
-                    <img src="assets/projects/ProyectoTestingCypress.png" 
-                         alt="Cypress Automated Testing - Contact List App">
-                </div>
-            
-                <div class="project-content">
-                    <h3 class="project-title">Automated Testing with Cypress – Contact List</h3>
-                
-                    <p class="project-description">
-                        End-to-end automated test suite built with Cypress for the Thinking Tester
-                        Contact List web application. Covers user registration, login/logout, 
-                        full contact CRUD operations, form validations, and access restrictions 
-                        to protected routes when no active session exists.
-                    </p>
-                
-                    <div class="project-tech-stack">
-                        <span class="tech-tag">Cypress</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">E2E Testing</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Automation</span>
+                <!-- Project 1: Inventory System -->
+                <div class="project-card" data-category="sde">
+                    <div class="project-image">
+                        <img src="assets/projects/ProyectoFullStock.png" alt="Inventory Management System">
                     </div>
-                
-                    <div class="project-links">
-                        <a href="https://github.com/matih1210/TPN-6-TESTING-AUTOMATIZADO" 
-                           class="project-link" target="_blank">
-                            <i class="fab fa-github"></i> Test Suite
-                        </a>
-                        <a href="https://thinking-tester-contact-list.herokuapp.com/" 
-                           class="project-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Target App
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <!-- SDE Project – Node/React CI Pipeline -->
-            <div class="project-card" data-category="sde">
-                <div class="project-image">
-                    <img src="assets/projects/Proyecto-Pipeline.png" 
-                         alt="Node.js CI Pipeline with GitHub Actions">
-                </div>
-            
-                <div class="project-content">
-                    <h3 class="project-title">Node.js CI Pipeline with GitHub Actions</h3>
-                
-                    <p class="project-description">
-                        Minimal Node.js project designed to demonstrate a complete CI workflow 
-                        using GitHub Actions. The pipeline runs automated linting (ESLint), 
-                        formatting checks (Prettier), unit tests with Jest, an integration test 
-                        using Supertest to verify the /health endpoint, and a basic build step. 
-                        Branch protection requires the workflow to pass before merging into develop.
-                    </p>
-                
-                    <div class="project-tech-stack">
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Express</span>
-                        <span class="tech-tag">Jest</span>
-                        <span class="tech-tag">Supertest</span>
-                        <span class="tech-tag">ESLint</span>
-                        <span class="tech-tag">Prettier</span>
-                        <span class="tech-tag">GitHub Actions</span>
-                    </div>
-                
-                    <div class="project-links">
-                        <a href="https://github.com/matih1210/Plan-de-desarrollo-y-mantenimiento" 
-                           class="project-link" target="_blank">
-                            <i class="fab fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.inv.title">
+                            Inventory Management System
+                        </h3>
 
-            </div> <!-- Closing scroll-content -->
-        </div> <!-- Closing horizontal-scroll-wrapper -->
+                        <p class="project-description" data-i18n="projects.inv.desc">
+                            FullStack inventory management platform developed for an academic project...
+                        </p>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Prisma ORM</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TailwindCSS</span>
+                            <span class="tech-tag">Recharts</span>
+                            <span class="tech-tag">Tremor</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/TuteSeta/FullStockBack" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Backend
+                            </a>
+                            <a href="https://github.com/TuteSeta/FullstockFront" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Frontend
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 2: Random Number Generator -->
+                <div class="project-card" data-category="dsml">
+                    <div class="project-image">
+                        <img src="assets/projects/ProyectoSimulacion.png" alt="Random Number Generator Project Screenshot">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.sim.title">
+                            Random Number Generator & Statistical Validation
+                        </h3>
+
+                        <p class="project-description" data-i18n="projects.sim.desc">
+                            Academic project focused on developing and validating pseudo-random number generators...
+                        </p>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SciPy</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/matih1210/Trabajo-Final-Simulacion" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 3: Microservices -->
+                <div class="project-card" data-category="sde">
+                    <div class="project-image">
+                        <img src="assets/projects/Proyecto-Microservicios-Eventos.png" alt="Microservices Auth Event Signup">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.micro.title">
+                            Microservices Auth, Event & Signup
+                        </h3>
+
+                        <p class="project-description" data-i18n="projects.micro.desc">
+                            Distributed system built with Go and MongoDB demonstrating session management...
+                        </p>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Go</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Microservices</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/matih1210/Microservicios-de-eventos" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 4: Cypress -->
+                <div class="project-card" data-category="sde">
+                    <div class="project-image">
+                        <img src="assets/projects/ProyectoTestingCypress.png" alt="Cypress Automated Testing">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.cypress.title">
+                            Automated Testing with Cypress – Contact List
+                        </h3>
+
+                        <p class="project-description" data-i18n="projects.cypress.desc">
+                            End-to-end automated test suite built with Cypress...
+                        </p>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Cypress</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">E2E Testing</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/matih1210/TPN-6-TESTING-AUTOMATIZADO" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Test Suite
+                            </a>
+                            <a href="https://thinking-tester-contact-list.herokuapp.com/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Target App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 5: Node.js CI Pipeline -->
+                <div class="project-card" data-category="sde">
+                    <div class="project-image">
+                        <img src="assets/projects/Proyecto-Pipeline.png" alt="Node.js CI Pipeline Screenshot">
+                    </div>
+
+                    <div class="project-content">
+                        <h3 class="project-title" data-i18n="projects.pipeline.title">
+                            Node.js CI Pipeline with GitHub Actions
+                        </h3>
+
+                        <p class="project-description" data-i18n="projects.pipeline.desc">
+                            Minimal Node.js project designed to demonstrate a complete CI workflow...
+                        </p>
+
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Jest</span>
+                            <span class="tech-tag">Supertest</span>
+                            <span class="tech-tag">ESLint</span>
+                            <span class="tech-tag">Prettier</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/matih1210/Plan-de-desarrollo-y-mantenimiento" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- scroll-content -->
+        </div> <!-- wrapper -->
     </div>
 </section>

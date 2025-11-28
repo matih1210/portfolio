@@ -257,6 +257,31 @@ body.dark-theme #themeToggle .fa-sun {
     opacity: 1;
 }
 
+/*Button*/
+
+.language-switch {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.lang-btn {
+  border: 1px solid var(--border-color, #444);
+  background: transparent;
+  color: inherit;
+  padding: 0.25rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.lang-btn.active {
+  background: var(--accent-color, #4895ef);
+  color: #fff;
+}
+
+
 /* Mobile specific styles */
 @media screen and (max-width: 768px) {
     .navbar {

@@ -2,9 +2,10 @@
 <section class="certifications section horizontal-scroll-enabled" id="certifications">
     <div class="container">
         <div class="section-heading">
-            <h2>Certifications</h2>
+            <h2 data-i18n="certs.title">Certifications</h2>
             <div class="underline"></div>
         </div>
+
         <div class="scroll-arrow-container">
             <button class="scroll-arrow prev-arrow" aria-label="Previous items">
                 <i class="fas fa-chevron-left"></i>
@@ -13,49 +14,58 @@
                 <i class="fas fa-chevron-right"></i>
             </button>
         </div>
+
         <div class="horizontal-scroll-wrapper">
-            <div class="scroll-content certifications-grid"> <!-- HTML, CSS, and Javascript for Web Developers -->
-            <!-- Data Analytics UTN -->
-            <div class="cert-card coursera-cert">
-                <div class="cert-icon">
-                    <i class="fas fa-chart-line"></i>
+            <div class="scroll-content certifications-grid">
+                
+                <!-- Data Analytics UTN -->
+                <div class="cert-card coursera-cert">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title" data-i18n="certs.analytics.title">Data Analytics</h3>
+                        <p class="cert-issuer" data-i18n="certs.analytics.issuer">UTN.BA – CEIT</p>
+                        <p class="cert-provider" data-i18n="certs.analytics.provider">
+                            Centro de Estudiantes de Ingeniería Tecnológica
+                        </p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> 2024</p>
+                        <p class="cert-description" data-i18n="certs.analytics.desc">
+                            20-hour course covering SQL and Power BI for data analysis, dashboards, and business insights.
+                        </p>
+                        <a href="assets/Certificates/Certificado-Data-Analytics.pdf" 
+                           class="cert-link open-pdf-modal"
+                           data-modal-title="Data Analytics – UTN Certificate"
+                           data-i18n="certs.analytics.link">
+                           <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
                 </div>
-                <div class="cert-content">
-                    <h3 class="cert-title">Data Analytics</h3>
-                    <p class="cert-issuer">UTN.BA – CEIT</p>
-                    <p class="cert-provider">Centro de Estudiantes de Ingeniería Tecnológica</p>
-                    <p class="cert-date"><i class="far fa-calendar-alt"></i> 2024</p>
-                    <p class="cert-description">
-                        20-hour course covering SQL and Power BI for data analysis, dashboards, and business insights.
-                    </p>
-                    <a href="assets/Certificates/Certificado-Data-Analytics.pdf" 
-                       class="cert-link open-pdf-modal"
-                       data-modal-title="Data Analytics – UTN Certificate">
-                       <i class="fas fa-external-link-alt"></i> View Certificate
-                    </a>
+
+                <!-- Full Stack Udemy -->
+                <div class="cert-card coursera-cert">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title" data-i18n="certs.fullstack.title">De Cero a Full Stack</h3>
+                        <p class="cert-issuer" data-i18n="certs.fullstack.issuer">Udemy</p>
+                        <p class="cert-provider" data-i18n="certs.fullstack.provider">
+                            Instructor: Adrian Lisciotti
+                        </p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> August 2025</p>
+                        <p class="cert-description" data-i18n="certs.fullstack.desc">
+                            107-hour full stack development program covering modern frontend and backend tools.
+                        </p>
+                        <a href="assets/Certificates/Certificado-FullStack.pdf" 
+                           class="cert-link open-pdf-modal"
+                           data-modal-title="Full Stack Udemy Certificate"
+                           data-i18n="certs.fullstack.link">
+                           <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
                 </div>
-            </div>          <!-- Data Science Math Skills -->
-            <!-- Full Stack Udemy -->
-            <div class="cert-card coursera-cert">
-                <div class="cert-icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <div class="cert-content">
-                    <h3 class="cert-title">De Cero a Full Stack</h3>
-                    <p class="cert-issuer">Udemy</p>
-                    <p class="cert-provider">Instructor: Adrian Lisciotti</p>
-                    <p class="cert-date"><i class="far fa-calendar-alt"></i> August 2025</p>
-                    <p class="cert-description">
-                        107-hour full stack development program covering modern frontend and backend tools.
-                    </p>
-                    <a href="assets/Certificates/Certificado-FullStack.pdf" 
-                       class="cert-link open-pdf-modal"
-                       data-modal-title="Full Stack Udemy Certificate">
-                       <i class="fas fa-external-link-alt"></i> View Certificate
-                    </a>
-                </div>
-            </div>           
-           
+
             </div> <!-- Closing scroll-content -->
         </div> <!-- Closing horizontal-scroll-wrapper -->
     </div>
