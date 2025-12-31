@@ -25,7 +25,7 @@ const translations = {
     "about.subtitle": "My Journey",
     "about.p1": "I am a dedicated Software Engineering student currently entering my final year (5th year) of my Information Systems Engineering degree. Throughout my academic journey, I have developed strong skills in software development, working on complex projects that integrate real-world requirements, modern architectures, and practical engineering practices.",
     "about.p2": "Over time, I have grown increasingly passionate about Data Science and Data Analytics. I am now actively expanding my knowledge in these areas, aiming to combine my software engineering background with analytical and data-driven approaches. My goal is to build solutions that not only work efficiently, but also provide meaningful insights and value through data.",
-    "about.p3": "Beyond academics, I enjoy exploring new technologies, building structured system architectures, and solving real problems through code. I believe that the intersection of software engineering and data analysis is a space full of opportunities, and I am excited to continue growing and contributing in this field.",
+    "about.p3": "Beyond academics, I enjoy exploring new technologies, building structured system architectures, and solving real problems through code. I believe that the intersection of software engineering and data analysis is a space full of opportunities, and I am excited to continue growing and contributing to this field.",
 
     "about.detail.software.title": "Software Engineering",
     "about.detail.software.text": "Building efficient, reliable, and well-structured systems.",
@@ -53,7 +53,7 @@ const translations = {
     "projects.filter.dsml": "Data Science & ML",
 
     "projects.inv.title": "Inventory Management System",
-    "projects.inv.desc": "FullStack inventory management platform developed for an academic project. Includes product, supplier, orders, and sales management. Built with a REST API backend (Express + Prisma + PostgreSQL) and a modern frontend using Next.js and TailwindCSS with interactive dashboards and visualizations.",
+    "projects.inv.desc": "Full Stack inventory management platform developed for an academic project. Includes product, supplier, orders, and sales management. Built with a REST API backend (Express + Prisma + PostgreSQL) and a modern frontend using Next.js and TailwindCSS with interactive dashboards and visualizations.",
 
     "projects.sim.title": "Random Number Generator & Statistical Validation",
     "projects.sim.desc": "Academic project focused on developing and validating pseudo-random number generators in Python. Included statistical tests (Chi-square, KS, entropy), probabilistic distributions, and a Flask-based web interface for interactive visualization.",
@@ -166,7 +166,7 @@ const translations = {
     "about.subtitle": "Mi recorrido",
     "about.p1": "Soy un estudiante dedicado de Ingeniería en Sistemas, actualmente ingresando a mi último año (5º año) de la carrera de Ingeniería en Sistemas de Información. A lo largo de mi trayectoria académica, desarrollé sólidas habilidades en desarrollo de software, trabajando en proyectos complejos que integran requerimientos del mundo real, arquitecturas modernas y buenas prácticas de ingeniería.",
     "about.p2": "Con el tiempo, fui desarrollando un fuerte interés por el Data Science y el Data Analytics. Actualmente estoy ampliando activamente mis conocimientos en estas áreas, buscando combinar mi base de ingeniería de software con enfoques analíticos y orientados a datos. Mi objetivo es construir soluciones que no solo funcionen de forma eficiente, sino que también generen información valiosa y aporten valor a través de los datos.",
-    "about.p3": "Más allá de lo académico, disfruto explorar nuevas tecnologías, diseñar arquitecturas de sistemas estructuradas y resolver problemas reales mediante código. Creo que la intersección entre la ingeniería de software y el análisis de datos es un espacio lleno de oportunidades, y me entusiasma seguir creciendo y aportando en este campo.",
+    "about.p3": "Más allá de lo académico, disfruto explorar nuevas tecnologías, diseñar arquitecturas de sistemas estructuradas y resolver problemas reales mediante código. Creo que la intersección entre la ingeniería de software y el análisis de datos es un espacio lleno de oportunidades, y me entusiasma seguir creciendo y aportando a este campo.",
 
     "about.detail.software.title": "Ingeniería de Software",
     "about.detail.software.text": "Construyendo sistemas eficientes, confiables y bien estructurados.",
@@ -194,7 +194,7 @@ const translations = {
     "projects.filter.dsml": "Data Science & ML",
     
     "projects.inv.title": "Sistema de Gestión de Inventario",
-    "projects.inv.desc": "Plataforma FullStack desarrollada para un proyecto académico. Incluye gestión de productos, proveedores, órdenes y ventas. Backend REST API (Express + Prisma + PostgreSQL) y frontend moderno con Next.js y TailwindCSS.",
+    "projects.inv.desc": "Plataforma Full Stack desarrollada para un proyecto académico. Incluye gestión de productos, proveedores, órdenes y ventas. Backend REST API (Express + Prisma + PostgreSQL) y frontend moderno con Next.js y TailwindCSS.",
     
     "projects.sim.title": "Generador de Números Aleatorios y Validación Estadística",
     "projects.sim.desc": "Proyecto académico centrado en desarrollar y validar generadores pseudoaleatorios en Python. Incluye pruebas estadísticas (Chi-cuadrado, KS, entropía) y distribuciones probabilísticas, con una interfaz en Flask para visualización interactiva.",
@@ -206,7 +206,7 @@ const translations = {
     "projects.cypress.desc": "Suite de tests E2E que cubre registro, login, CRUD de contactos, validaciones y protección de rutas. Desarrollada con Cypress para la aplicación Thinking Tester Contact List.",
     
     "projects.pipeline.title": "Pipeline CI en Node.js con GitHub Actions",
-    "projects.pipeline.desc": "Proyecto mínimo que demuestra un flujo de CI completo con linting, formateo, tests unitarios, test de integración y validación obligatoria mediante GitHub Actions.",
+    "projects.pipeline.desc": "Proyecto mínimo que demuestra un flujo de CI completo con linting, formateo, tests unitarios, tests de integración y validación obligatoria mediante GitHub Actions.",
 
     // CERTIFICATIONS - ES
     "certs.title": "Certificaciones",
@@ -252,7 +252,7 @@ const translations = {
     "skills.legend.familiar": "Familiar",
 
     "skills.cat.languages": "Lenguajes y Tecnologías Base",
-    "skills.cat.frameworks": "Frameworks y Arquitectura",
+    "skills.cat.frameworks": "Frameworks y Arquitecturas",
     "skills.cat.ds": "Data Science y Analítica",
     "skills.cat.devops": "DevOps y Herramientas",
 
