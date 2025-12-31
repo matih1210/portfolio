@@ -157,7 +157,7 @@ const translations = {
     "hero.greeting": "Hola, soy",
     "hero.name": "Matias Hansen",
     "hero.title": "Estudiante de Ingeniería en Sistemas & Entusiasta de Data Science",
-    "hero.description": "Desarrollando software confiable mientras exploro el poder de los datos y la analítica.",
+    "hero.description": "Desarrollando software confiable mientras exploro el poder de los datos y la analítica de datos.",
     "hero.ctaContact": "Contactarme",
     "hero.ctaWork": "Ver mis proyectos",
 
