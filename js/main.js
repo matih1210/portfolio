@@ -304,21 +304,54 @@ document.addEventListener('DOMContentLoaded', () => {
     setupHorizontalScroll('certifications');
 
     //Lenguage Switcher
-    function setLanguage(lang) {
-      const dict = translations[lang];
-      if (!dict) return;
 
-      document.documentElement.setAttribute("lang", lang);
-
-      document.querySelectorAll("[data-i18n]").forEach((el) => {
-        const key = el.getAttribute("data-i18n");
-        if (dict[key]) el.textContent = dict[key];
-      });
-
-      document.querySelectorAll(".lang-btn").forEach((btn) => {
-        btn.classList.toggle("active", btn.dataset.lang === lang);
-      });
+    // ===== Resume PDF bilingual handling =====
+    function updateResumeLinks(lang) {
+      const previewBtn = document.getElementById("resumePreview");
+      const downloadBtn = document.getElementById("resumeDownload");
+      if (!previewBtn || !downloadBtn) return;
+    
+      const resumePath =
+        lang === "es"
+          ? "assets/resumes/MatiasHansen_CV_ES.pdf"
+          : "assets/resumes/MatiasHansen_CV_EN.pdf";
+    
+      previewBtn.href = resumePath;
+      downloadBtn.href = resumePath;
+    
+      downloadBtn.setAttribute(
+        "download",
+        lang === "es"
+          ? "MatiasHansen_CV_ES.pdf"
+          : "MatiasHansen_CV_EN.pdf"
+      );
+    
+      previewBtn.setAttribute(
+        "data-modal-title",
+        lang === "es" ? "Vista previa del CV" : "Resume Preview"
+      );
     }
+
+
+    function setLanguage(lang) {
+        const dict = translations[lang];
+        if (!dict) return;
+
+        document.documentElement.setAttribute("lang", lang);
+
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (dict[key]) el.textContent = dict[key];
+        });
+
+        document.querySelectorAll(".lang-btn").forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.lang === lang);
+        });
+
+        // ✅ actualizar CV según idioma
+        updateResumeLinks(lang);
+    }
+
 
     function initLanguage() {
       const saved = localStorage.getItem("preferredLang") || "en";
